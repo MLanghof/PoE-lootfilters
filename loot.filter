@@ -73,9 +73,11 @@ Show
     SetFontSize 40
     PlayAlertSound 4 100
 
-Show
-    Class "Maps"
-    PlayAlertSound 4 100
+#Disabled Block Start
+#Show
+#    Class "Maps"
+#    PlayAlertSound 4 100
+#Disabled Block End
 
 Show
     Class "Maps" "Map Fragments"
@@ -140,7 +142,7 @@ Show
 
 Show
     Class "Gem"
-    BaseType "Vaal"
+    BaseType "Vaal" "Empower" "Enlighten" "Enhance" "Portal" "Added Chaos Damage"
     SetBorderColor 30 150 180
 
 Show
