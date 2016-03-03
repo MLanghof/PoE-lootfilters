@@ -104,12 +104,14 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 34
 
-Show
-    BaseType "Scroll of Wisdom" "Portal Scroll"
-    SetTextColor 200 158 130 # Slow currency
-    SetBackgroundColor 0 0 0 86 # Slow
-    SetBorderColor 0 0 0 0
-    SetFontSize 35
+#Disabled Block Start
+#Show
+#    BaseType "Scroll of Wisdom" "Portal Scroll"
+#    SetTextColor 200 158 130 # Slow currency
+#    SetBackgroundColor 0 0 0 96 # Slow
+#    SetBorderColor 0 0 0 0
+#    SetFontSize 35
+#Disabled Block End
 
 Show
     Class "Currency"
@@ -762,7 +764,7 @@ Show
     Class "Shields"
     BaseType "Spirit Shield"
     SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
 
 Show
@@ -770,7 +772,7 @@ Show
     Rarity = Rare
     Class "Shields"
     BaseType "Spirit Shield"
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
 
 Show
@@ -880,14 +882,14 @@ Show
     ItemLevel >= 75
     Rarity = Rare
     Width = 1
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
 
 Show
     ItemLevel >= 75
     Rarity = Rare
     SetTextColor 255 190 0 92 # Slow rare 75+
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
 
 # Section: Leveling highlights for rares
@@ -903,7 +905,7 @@ Show
 Show
     Rarity = Rare
     SetTextColor 255 255 119 92 # Slow rare
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
 
 # Section: --- No more rares after this ---
@@ -1083,7 +1085,7 @@ Show
     Height = 4
     SocketGroup "RGB"
     SetTextColor 200 200 200 91 # Slow normal
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
     SetFontSize 35
 
@@ -1092,7 +1094,7 @@ Show
     Width = 2
     Height = 3
     SocketGroup "RGB"
-    SetBackgroundColor 0 0 0 86 # Slow
+    SetBackgroundColor 0 0 0 96 # Slow
     SetBorderColor 0 0 0 0
     SetFontSize 35
 
@@ -1223,7 +1225,7 @@ Show
     SetBorderColor 30 30 100 # Flask
 
 Show
-    BaseType "Granite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Diamond Flask" "Quicksilver Flask" "Divine Mana Flask"
+    BaseType "Granite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Diamond Flask" "Quicksilver Flask"
     SetBackgroundColor 75 75 75
     SetBorderColor 0 0 0
 
