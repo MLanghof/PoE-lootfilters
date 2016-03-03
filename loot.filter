@@ -107,6 +107,12 @@ Show
     SetFontSize 34
 
 Show
+    BaseType "Scroll of Wisdom" "Portal Scroll"
+    SetTextColor 200 158 130 134 # Slow currency
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
+
+Show
     Class "Currency"
 
 Show
@@ -267,8 +273,9 @@ Show
     DropLevel < 48
     Rarity = Rare
     Class "Claws"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 26 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -276,7 +283,9 @@ Show
     DropLevel < 48
     Rarity = Rare
     Class "Claws"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Wands
@@ -345,8 +354,9 @@ Show
     DropLevel <= 52
     Rarity = Rare
     Class "One Hand Swords"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -354,7 +364,9 @@ Show
     DropLevel <= 52
     Rarity = Rare
     Class "One Hand Swords"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: One Hand Axes/Maces
@@ -402,8 +414,9 @@ Show
     DropLevel <= 52
     Rarity = Rare
     Class "One Hand Maces" "One Hand Axes"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -411,7 +424,9 @@ Show
     DropLevel <= 52
     Rarity = Rare
     Class "One Hand Maces" "One Hand Axes"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Sceptres
@@ -499,8 +514,9 @@ Show
     DropLevel <= 56
     Rarity = Rare
     Class "Staves"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -508,7 +524,9 @@ Show
     DropLevel <= 56
     Rarity = Rare
     Class "Staves"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Two Hand
@@ -537,8 +555,9 @@ Show
     DropLevel <= 56
     Rarity = Rare
     Class "Two Hand"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -546,7 +565,9 @@ Show
     DropLevel <= 56
     Rarity = Rare
     Class "Two Hand"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Bows
@@ -561,31 +582,37 @@ Show
     SetBorderColor 97 80 60 # Should ID
     SetFontSize 37
 
-Show
-    ItemLevel >= 65
-    Rarity >= Normal
-    Class "Bows"
-    BaseType "Harbinger Bow"
-    SetBackgroundColor 15 36 15 # Good base
-    SetBorderColor 97 80 60 # Should ID
-    SetFontSize 37
+#Disabled Block Start
+#Show
+#    ItemLevel >= 65
+#    Rarity >= Normal
+#    Class "Bows"
+#    BaseType "Harbinger Bow"
+#    SetBackgroundColor 15 36 15 # Good base
+#    SetBorderColor 97 80 60 # Should ID
+#    SetFontSize 37
+#Disabled Block End
 
+#Disabled Block Start
 # Regal recipe small bows
-Show
-    ItemLevel >= 75
-    Rarity = Rare
-    Class "Bows"
-    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBorderColor 14 66 14 # Compact items
+#Show
+#    ItemLevel >= 75
+#    Rarity = Rare
+#    Class "Bows"
+#    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
+#    SetTextColor 255 190 0 # 75+ Rare
+#    SetBorderColor 14 66 14 # Compact items
+#Disabled Block End
 
+#Disabled Block Start
 # Chaos recipe small bows
-Show
-    ItemLevel >= 60
-    Rarity = Rare
-    Class "Bows"
-    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
-    SetBorderColor 14 66 14 # Compact items
+#Show
+#    ItemLevel >= 60
+#    Rarity = Rare
+#    Class "Bows"
+#    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
+#    SetBorderColor 14 66 14 # Compact items
+#Disabled Block End
 
 Show
     ItemLevel >= 75
@@ -611,8 +638,9 @@ Show
     DropLevel <= 50
     Rarity = Rare
     Class "Bows"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -620,7 +648,9 @@ Show
     DropLevel <= 50
     Rarity = Rare
     Class "Bows"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Quivers
@@ -672,8 +702,9 @@ Show
     DropLevel <= 15
     Rarity = Rare
     Class "Gloves" "Boots" "Helmets"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -681,7 +712,9 @@ Show
     DropLevel <= 15
     Rarity = Rare
     Class "Gloves" "Boots" "Helmets"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Shields
@@ -732,12 +765,16 @@ Show
     Class "Shields"
     BaseType "Spirit Shield"
     SetTextColor 255 190 0 # 75+ Rare
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
 
 Show
     ItemLevel >= 65
     Rarity = Rare
     Class "Shields"
     BaseType "Spirit Shield"
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
 
 Show
     ItemLevel >= 75
@@ -784,8 +821,9 @@ Show
     DropLevel <= 35
     Rarity = Rare
     Class "Shields"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -793,7 +831,9 @@ Show
     DropLevel <= 35
     Rarity = Rare
     Class "Shields"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 # Section: Body Armour
@@ -822,8 +862,9 @@ Show
     DropLevel <= 45
     Rarity = Rare
     Class "Body Armour"
-    SetTextColor 255 190 0 # 75+ Rare
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
 
 Show
@@ -831,13 +872,26 @@ Show
     DropLevel <= 45
     Rarity = Rare
     Class "Body Armour"
-    SetBackgroundColor 65 25 25 # Bad base
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 65 25 26 123 # Bad base
+    SetBorderColor 0 0 0 0
     SetFontSize 30
+
+# Section: General rares
 
 Show
     ItemLevel >= 75
     Rarity = Rare
-    SetTextColor 255 190 0 # 75+ Rare
+    Width = 1
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
+
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    SetTextColor 255 190 0 92 # Slow rare 75+
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
 
 # Section: Leveling highlights for rares
 
@@ -853,6 +907,9 @@ Show
 
 Show
     Rarity = Rare
+    SetTextColor 255 255 119 92 # Slow rare
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
 
 # Section: --- No more rares after this ---
 
@@ -1038,7 +1095,9 @@ Show
 Show
     Height = 4
     SocketGroup "RGB"
-    SetBackgroundColor 75 75 75 # Attention
+    SetTextColor 200 200 200 91 # Slow normal
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
     SetFontSize 35
 
 # Chromatic recipe (Chests etc.)
@@ -1046,7 +1105,8 @@ Show
     Width = 2
     Height = 3
     SocketGroup "RGB"
-    SetBackgroundColor 75 75 75 # Attention
+    SetBackgroundColor 0 0 0 86 # Slow
+    SetBorderColor 0 0 0 0
     SetFontSize 35
 
 # Chromatic recipe (convenient stuff)
@@ -1057,11 +1117,13 @@ Show
 
 # Section: Chisel recipe
 
-Show
-    Rarity = Normal
-    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-    SetBackgroundColor 75 75 75 # Attention
-    SetFontSize 35
+#Disabled Block Start
+#Show
+#    Rarity = Normal
+#    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+#    SetBackgroundColor 75 75 75 # Attention
+#    SetFontSize 35
+#Disabled Block End
 
 Show
     Quality > 11
