@@ -73,11 +73,9 @@ Show
     SetFontSize 40
     PlayAlertSound 4 100
 
-#Disabled Block Start
-#Show
-#    Class "Maps"
-#    PlayAlertSound 4 100
-#Disabled Block End
+Show
+    Class "Maps"
+    PlayAlertSound 4 100
 
 Show
     Class "Maps" "Map Fragments"
@@ -108,9 +106,10 @@ Show
 
 Show
     BaseType "Scroll of Wisdom" "Portal Scroll"
-    SetTextColor 200 158 130 134 # Slow currency
+    SetTextColor 200 158 130 # Slow currency
     SetBackgroundColor 0 0 0 86 # Slow
     SetBorderColor 0 0 0 0
+    SetFontSize 35
 
 Show
     Class "Currency"
@@ -593,16 +592,14 @@ Show
 #    SetFontSize 37
 #Disabled Block End
 
-#Disabled Block Start
 # Regal recipe small bows
-#Show
-#    ItemLevel >= 75
-#    Rarity = Rare
-#    Class "Bows"
-#    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
-#    SetTextColor 255 190 0 # 75+ Rare
-#    SetBorderColor 14 66 14 # Compact items
-#Disabled Block End
+Show
+    ItemLevel >= 75
+    Rarity = Rare
+    Class "Bows"
+    BaseType "Crude Bow" "Short Bow" "Grove Bow" "Thicket Bow"
+    SetTextColor 255 190 0 # 75+ Rare
+    SetBorderColor 14 66 14 # Compact items
 
 #Disabled Block Start
 # Chaos recipe small bows
@@ -895,15 +892,13 @@ Show
 
 # Section: Leveling highlights for rares
 
-#Disabled Block Start
 # Non-endgame upgrade potential -> priority highlight
-#Show
-#    ItemLevel <= 67
-#    Rarity = Rare
-#    Class "Boots" "Gloves" "Helmets"
-#    SetBorderColor 97 80 60 # Should ID
-#    SetFontSize 39
-#Disabled Block End
+Show
+    ItemLevel <= 67
+    Rarity = Rare
+    Class "Boots" "Gloves" "Helmets"
+    SetBorderColor 97 80 60 # Should ID
+    SetFontSize 39
 
 Show
     Rarity = Rare
@@ -932,25 +927,21 @@ Show
     SetBorderColor 255 0 5 # 83+ base
     SetFontSize 35
 
-#Disabled Block Start
 # White high level jewelry good bases -> alch
-#Show
-#    ItemLevel >= 81
-#    Rarity = Normal
-#    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
-#    SetBackgroundColor 15 36 15 # Good base
-#    SetBorderColor 255 0 169 # 81+ base
-#    SetFontSize 36
-#Disabled Block End
+Show
+    ItemLevel >= 81
+    Rarity = Normal
+    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
+    SetBackgroundColor 15 36 15 # Good base
+    SetBorderColor 255 0 169 # 81+ base
+    SetFontSize 36
 
-#Disabled Block Start
 # White high level jewelry other bases -> alch
-#Show
-#    ItemLevel >= 81
-#    Rarity = Normal
-#    Class "Rings" "Amulets" "Belts"
-#    SetBorderColor 255 0 169 # 81+ base
-#Disabled Block End
+Show
+    ItemLevel >= 81
+    Rarity = Normal
+    Class "Rings" "Amulets" "Belts"
+    SetBorderColor 255 0 169 # 81+ base
 
 # Apply chance orb (this is here because you might want to alch jewelry above a certain ilvl)
 Show
@@ -960,15 +951,13 @@ Show
     SetBorderColor 0 0 0
     SetFontSize 33
 
-#Disabled Block Start
-#Show
-#    ItemLevel >= 78
-#    Rarity = Normal
-#    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
-#    SetBackgroundColor 15 36 15 # Good base
-#    SetBorderColor 160 0 143 # 78+ base
-#    SetFontSize 37
-#Disabled Block End
+Show
+    ItemLevel >= 78
+    Rarity = Normal
+    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
+    SetBackgroundColor 15 36 15 # Good base
+    SetBorderColor 160 0 143 # 78+ base
+    SetFontSize 37
 
 #Disabled Block Start
 #Show
@@ -978,15 +967,13 @@ Show
 #    SetBorderColor 160 0 143 # 78+ base
 #Disabled Block End
 
-#Disabled Block Start
-#Show
-#    ItemLevel >= 75
-#    Rarity = Normal
-#    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
-#    SetBackgroundColor 15 36 15 # Good base
-#    SetBorderColor 91 0 71 # 76+ base
-#    SetFontSize 37
-#Disabled Block End
+Show
+    ItemLevel >= 75
+    Rarity = Normal
+    BaseType "Coral Ring" "Leather Belt" "Diamond Ring" "Two-Stone Ring" "Prismatic Ring" "Rustic Sash" "Gold Amulet" "Amber Amulet" "Citrine Amulet" "Jade Amulet" "Lapis Amulet" "Onyx Amulet" "Turquoise Amulet" "Harbinger Bow"
+    SetBackgroundColor 15 36 15 # Good base
+    SetBorderColor 91 0 71 # 76+ base
+    SetFontSize 37
 
 #Disabled Block Start
 #Show
@@ -1117,25 +1104,26 @@ Show
 
 # Section: Chisel recipe
 
+Show
+    Quality > 9
+    Rarity = Normal
+    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
+    SetBackgroundColor 75 75 75 # Attention
+    SetFontSize 35
+
 #Disabled Block Start
 #Show
-#    Rarity = Normal
+#    Quality > 11
+#    Rarity = Magic
 #    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-#    SetBackgroundColor 75 75 75 # Attention
+#    SetBackgroundColor 75 75 75
 #    SetFontSize 35
 #Disabled Block End
-
-Show
-    Quality > 11
-    Rarity = Magic
-    BaseType "Gavel" "Rock Breaker" "Stone Hammer"
-    SetBackgroundColor 75 75 75
-    SetFontSize 35
 
 # Section: Flask progression
 
 Show
-    Quality >= 20
+    Quality >= 5
     BaseType "Flask"
     SetBackgroundColor 75 75 75
     SetBorderColor 30 30 100 # Flask
@@ -1228,26 +1216,20 @@ Hide
     BaseType "Giant" "Colossal" "Sacred"
     SetFontSize 20
 
-#Disabled Block Start
 # Always show divine and eternal flasks
-#Show
-#    Class "Flask"
-#    BaseType "Eternal Life Flask" "Divine Life Flask"
-#    SetBorderColor 30 30 100 # Flask
-#Disabled Block End
+Show
+    Class "Flask"
+    BaseType "Eternal Life Flask" "Divine Life Flask"
+    SetBorderColor 30 30 100 # Flask
 
-#Disabled Block Start
-#Show
-#    BaseType "Granite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Diamond Flask" "Quicksilver Flask" "Divine Mana Flask"
-#    SetBackgroundColor 75 75 75
-#    SetBorderColor 0 0 0
-#Disabled Block End
+Show
+    BaseType "Granite Flask" "Ruby Flask" "Topaz Flask" "Sapphire Flask" "Diamond Flask" "Quicksilver Flask" "Divine Mana Flask"
+    SetBackgroundColor 75 75 75
+    SetBorderColor 0 0 0
 
-#Disabled Block Start
-#Show
-#    Class "Utility Flasks"
-#    SetBorderColor 30 30 100 # Flask
-#Disabled Block End
+Show
+    Class "Utility Flasks"
+    SetBorderColor 30 30 100 # Flask
 
 Hide
     BaseType "Flask"
@@ -1261,13 +1243,11 @@ Show
     SetBorderColor 255 0 5 # 83+ base
     SetFontSize 38
 
-#Disabled Block Start
-#Show
-#    ItemLevel >= 81
-#    DropLevel >= 60
-#    SetBorderColor 255 0 169 # 81+ base
-#    SetFontSize 35
-#Disabled Block End
+Show
+    ItemLevel >= 81
+    DropLevel >= 60
+    SetBorderColor 255 0 169 # 81+ base
+    SetFontSize 35
 
 #Disabled Block Start
 #Show
@@ -1357,44 +1337,34 @@ Show
 
 # Section: Leveling - Good links
 
-#Disabled Block Start
-#Show
-#    ItemLevel <= 66
-#    Rarity = Normal
-#    LinkedSockets >= 4
-#    SetTextColor 255 255 255 # Normal links
-#Disabled Block End
+Show
+    ItemLevel <= 66
+    Rarity = Normal
+    LinkedSockets >= 4
+    SetTextColor 255 255 255 # Normal links
 
-#Disabled Block Start
-#Show
-#    ItemLevel <= 68
-#    Rarity = Magic
-#    LinkedSockets >= 4
-#    SetTextColor 100 100 255 # Magic links
-#Disabled Block End
+Show
+    ItemLevel <= 68
+    Rarity = Magic
+    LinkedSockets >= 4
+    SetTextColor 100 100 255 # Magic links
 
-#Disabled Block Start
-#Show
-#    ItemLevel <= 25
-#    Rarity = Normal
-#    LinkedSockets >= 3
-#    SetTextColor 255 255 255 # Normal links
-#Disabled Block End
+Show
+    ItemLevel <= 25
+    Rarity = Normal
+    LinkedSockets >= 3
+    SetTextColor 255 255 255 # Normal links
 
-#Disabled Block Start
-#Show
-#    ItemLevel <= 25
-#    Rarity = Magic
-#    LinkedSockets >= 3
-#    SetTextColor 100 100 255 # Magic links
-#Disabled Block End
+Show
+    ItemLevel <= 25
+    Rarity = Magic
+    LinkedSockets >= 3
+    SetTextColor 100 100 255 # Magic links
 
-#Disabled Block Start
 # I guess we will show any remaining magic items
-#Show
-#    ItemLevel < 62
-#    Rarity = Magic
-#Disabled Block End
+Show
+    ItemLevel < 62
+    Rarity = Magic
 
 # Section: Leveling - White items
 
